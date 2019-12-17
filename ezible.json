@@ -1,0 +1,31 @@
+{
+    "groups":[
+        {
+            "hosts":[
+                "192.168.4.130"
+            ],
+            "account":"",
+            "password":"",
+            "sshkeypath":"",
+            "shells": [
+                "sleep 5",
+                "pwd",
+                "gg"
+            ]
+        }, {
+            "hosts":[
+                "192.168.4.69"
+            ],
+            "account":"",
+            "password":"",
+            "sshkeypath":"",
+            "shells": [
+                "cd /",
+                "ll"
+            ]
+        }
+    ],
+    "account":"jerry",
+    "password":"jerry",
+    "sshkeypath":"/Users/jerry/.ssh/id_rsa"
+}
